@@ -70,5 +70,7 @@ Prediction portal: http://team10-website.s3-website.us-east-2.amazonaws.com
 ├── Model                           <- Folder for training model via AWS Lambda
 │   └── train_lambda_function.py    <- Python script for model training
 │
+├── FinalPresentation.pdf           <- Final presentation slides
+│
 └── README.md                       <- Documents project objective, relevant links, and repository structure
 </pre>
