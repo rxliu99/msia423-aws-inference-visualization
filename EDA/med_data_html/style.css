@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #f6f8fa;
+  }
+  
+  nav {
+    border-bottom: #d9d9d9 1px solid;
+  }
+  
+  #nav-links-container {
+    display: flex !important;
+  }
+  
+  
+  #nav-links-container > a {
+    color: black !important;
+  }
+  
+  header {
+    display: flex;
+    padding: 0px 5% 0 5%;
+    margin: 0px 0 20px 0;
+    height: 200px;
+    text-align: center;
+  }
+  
+  header > div {
+    margin: auto;
+  }
+  
+  h1 {
+    margin: 10px 0 10px 0;
+  }
+  
+  #main-container {
+    margin: 0px auto 0 auto;
+    padding: 10px;
+    width: min(1000px, 90%);
+    background-color: white;
+    border-radius: 0.5%;
+  }
+  
+  #project-links-container > a {
+    margin: 0 5px 0 5px;
+  }
+  
+  hr {
+    width: 96%;
+    margin: auto;
+    color: grey;
+  }
+  
+  section {
+    padding: 20px 2% 20px 2%;
+  }
+  
+  section > h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.6em;
+    color:#02b2b5;
+  }
+  
+  h3 {
+    font-size: 21px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  iframe,
+  img {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .excerpt {
+    font-size: 75%;
+    font-style: italic;
+    margin: 30px 10%;
+  }
+  
+  .excerpt mark {
+    background-color: rgba(255, 255, 0, 0.5);
+  }
+  
+  .variables {
+    font-size: 85%;
+    margin: 30px 10%;
+  }
+  
+  .variables td {
+    padding: 0 10px;
+    vertical-align: top;
+  }
+  
+  .variables thead {
+    border-bottom: solid thin;
+    font-weight: bold;
+  }
+  
+  .variables > tbody td:nth-child(1) {
+    white-space: nowrap;
+  }
+  
+  .variables > tbody td:nth-child(2) {
+    white-space: nowrap;
+  }
+  
+  .variables > tbody td:nth-child(3) {
+    font-style: italic;
+  }

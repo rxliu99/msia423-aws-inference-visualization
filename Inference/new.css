@@ -1,0 +1,196 @@
+/* CSS Stylesheet for Patient Portal */
+
+/* Body styles */
+body {
+    background-color: #f6f8fa;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .input_area{
+    background-color:rgb(219, 240, 240);
+    margin: 5px 200px 20px 200px; 
+  }
+
+  .output_area{
+    background-color:rgb(219, 240, 240);
+    margin: 5px 200px 20px 200px; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  h1 {
+    color: #333;
+    margin-top: 55px;
+    font-size: 35px;
+    font-weight:500;
+
+  }
+  
+  h2 {
+    color: #333;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    margin-left: 200px;
+    font-weight:500;
+  }
+  
+  /* Form styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-size: 20px; 
+  }
+  
+  input[type="number"]{
+    width: 185px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 18px; 
+  }
+
+  input:focus,select:focus{
+    background-color:aliceblue;
+  }
+  
+  select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 18px; 
+  }
+
+  .question_score {
+    position: relative;
+  }
+
+  .description {
+
+    /* display: none;
+    position: absolute;
+    top: 240px;
+    left: 70px; 
+    width: 250px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px; */
+        
+    display: none;
+  position: absolute;
+  top: -20px;
+  right: calc(72% + 10px);
+  width: 250px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  #score:hover + .description {
+    display: block;
+  }
+
+  .question_bmi {
+    position: relative;
+  }
+
+  .description_bmi {
+    /* display: none;
+    position: absolute;
+    top: 230px;
+    left: 190px; 
+    width: 230px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px; */
+    display: none;
+  position: absolute;
+  top: -8px;
+  right: calc(60% + 10px);
+  width: 230px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+  
+  #bmi:hover + .description_bmi {
+    display: block;
+  }
+  
+  
+  button {
+    background-color: #02b2b5;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #apiResult {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px 100px 50px 100px; 
+    padding: 10px;
+    font-size: 20px; 
+    font-weight:500;
+  }
+
+  #author {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 5px 0px 50px 0px; 
+    padding: 10px;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin: 5px 300px 5px 350px; 
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: x-small;
+  }
+  
+  /* Responsive styles */
+  @media (min-width: 74/8px) {
+    form {
+      max-width: 500px;
+      margin: 10 auto;
+      text-align:center;
+    }
+  
+    label {
+      width: 220px;
+    }
+  
+    input[type="number"],
+    select {
+      width: 260px;
+    }
+  }
+  
